@@ -53,6 +53,14 @@
 ![Image](https://github.com/user-attachments/assets/95e70304-d2cb-44b7-86ab-0d5fd4062845)
 ![Image](https://github.com/user-attachments/assets/b5cdfe77-bbe8-4696-a3c1-818352061c81)
 ![Image](https://github.com/user-attachments/assets/f0fbb177-1a4d-4ade-a81f-a129b276a284)
+
+### CPU-bound?
+- Um programa ou processo é dito CPU-bound quando seu desempenho é limitado pela velocidade de processamento da CPU (ou seja, pelo poder de cálculo).
+
+- Ele passa a maior parte do tempo executando instruções na CPU, e não esperando entrada/saída (I/O).
+
+- A única forma de acelerar esse programa é ter uma CPU mais rápida ou aproveitar paralelismo (multi-core, multithreading, GPU, etc.).
+
 ![Image](https://github.com/user-attachments/assets/55aac92a-efe5-4d00-a93a-614060696b74)
 ![Image](https://github.com/user-attachments/assets/c83ec6eb-3136-4fe7-b74e-cffcb9c8a4f7)
 ![Image](https://github.com/user-attachments/assets/81f107d3-6f4e-4ab9-81a2-7bb108d0baf7)

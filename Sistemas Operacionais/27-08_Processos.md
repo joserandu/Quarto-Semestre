@@ -53,3 +53,15 @@
 ![Image](https://github.com/user-attachments/assets/be579cb6-b220-40c2-b956-9a511fa9042b)
 ![Image](https://github.com/user-attachments/assets/18cad4ff-fb42-4d91-8758-ad914eb81d09)
 ![Image](https://github.com/user-attachments/assets/ce27438a-65b5-41f2-a4ff-d5ad7d0ec969)
+
+## Atividade SOSim
+
+
+![Image](https://github.com/user-attachments/assets/b7037681-4ecc-4b1e-a10c-b96547e2d1ee)
+![Image](https://github.com/user-attachments/assets/5d472066-9436-40ec-9135-451ba7dbd048)
+![Image](https://github.com/user-attachments/assets/cca8e95d-9663-42a2-8e51-26ccd16cfc39)
+![Image](https://github.com/user-attachments/assets/d7f65a42-1bfb-4898-82a2-87fcd55c0cc7)
+![Image](https://github.com/user-attachments/assets/964d5132-6fa9-4742-a807-b8fff64fe041)
+![Image](https://github.com/user-attachments/assets/d5662efd-8d65-461a-82a8-e0896e63e0e3)
+![Image](https://github.com/user-attachments/assets/2d983e25-42fa-4171-98d8-94d4a450f672)
+![Image](https://github.com/user-attachments/assets/c2345f3d-969b-4d1a-bac9-078deff3b3fc)

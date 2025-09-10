@@ -1,0 +1,119 @@
+body {
+    align-items: center;
+    background-image: url("Imagens/folhas.png");
+    margin: 0 auto; /* Centraliza o cabeçalho na página */
+    display: block; /* Garante que o header seja um bloco */
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: -10px;
+    text-align: center;
+    color: darkgreen;
+    font-size: 300%;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+header {
+    text-align: center; 
+    background-image: url("Imagens/paisagem.png");
+    width: 57%; 
+    height: 200px;
+    margin: 0 auto; 
+    display: block; 
+    margin-bottom: 0;
+}
+
+article {
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-align: center; 
+    background: linear-gradient(green,rgb(138, 247, 138));
+    margin: 0 auto; 
+    display: block;
+    width: 57%;
+}
+
+footer {
+    background-color: rgb(4, 77, 4);
+    width: 57%;
+    margin-top: 0px;
+    text-align: center;
+    margin: 0 auto; /* Centraliza o footer horizontalmente */
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color:grey;
+}
+
+figure {
+    margin-bottom: 0px;
+}
+
+ul {
+    text-align: left;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+th {
+    background-color: darkgreen;
+}
+
+td {
+    background-color: antiquewhite;
+}
+
+form {
+    text-align: left;
+}
+
+.navegation {
+    /* padding: 1%; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-top: 8px;
+    text-align: center;
+    /* border-bottom: black; */
+    /* margin: 1%; */
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: aliceblue;
+    border: 2px solid ;
+    border-radius: 10px;
+    border-color: rgb(180, 174, 174);
+    flex: 1;
+    
+}
+
+.nav {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-evenly; /* Distribui os itens igualmente */
+    margin-top: 0%;
+}
+
+.foot {
+    margin-top: 0px;
+}
+
+.contato {
+    margin-bottom: 0px;
+}
+
+.enviar {
+    font-family: URW Chancery L, cursive; 
+    font-size: medium;
+}
+/* #article_tarifas {
+    margin-bottom: 10px;
+} */
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Reservas | Pousada Serra Verde</title>
+
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../style.css">
+
+    </head>
+    <body>
+        <header>
+            <br>
+            <h1>Pousada Serra Verde</h1>
+        
+            <div class="nav">
+                <a href="../home.html" class="navegation">Home</a>            
+                <a href="pousada.html" class="navegation">A Pousada</a>   
+                <a href="reservas.html" class="navegation">Reservas</a>   
+                <a href="tarifas.html" class="navegation">Tarifas</a>      
+                <a href="comochegar.html" class="navegation">Como Chegar</a>
+            </div>
+        </header>
+        
+        <article>
+
+            <h2>Reservas</h2>
+
+            <p>Você pode efetuar a sua reserva pelo telefone: (12) 4321-1234, ou pelo nosso site, seguindo os passos abaixo:</p>
+            
+            <ol>
+                <li>Preencha o formulário a seguir</li>
+                <li>Aguarde nosso contato telefônico, ou por e-mail, para confirmação da reserva.</li>
+                <li>Efetue a transferência do valor da reserva.</li>
+                <li>Envie o comprovante de transferência para o e-mail <a>atendimento@pousadaserraverde.tur.br</a>.</li>
+            </ol>
+
+            <h2>Faça sua reserva agora na Pousada Serra Verde:</h2>
+
+            <form oninput="idadeOut.value=idade.value">
+                <fieldset>
+                    <legend>Solicitação de Reserva</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br><br>
+
+                     <label for="idade">Idade:</label>
+                    <input type="range" id="idade" name="idade" min="0" max="100" value="18">
+                    <output name="idadeOut" for="idade">18</output> ano(s)<br><br>
+
+                    <label for="celular">Celular:</label>
+                    <input type="tel" id="celular" name="celular" placeholder="99 99999-9999"><br><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade">
+                    <label for="uf">UF:</label>
+                    <select id="uf" name="uf">
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="MG">MG</option>
+                    </select><br><br>
+
+                    <fieldset>
+                        <legend>Chalé:</legend>
+                        <input type="radio" id="economico" name="chale" value="economico" checked>
+                        <label for="economico">Econômico</label>
+                        <input type="radio" id="standard" name="chale" value="standard">
+                        <label for="standard">Standard</label>
+                        <input type="radio" id="luxo" name="chale" value="luxo">
+                        <label for="luxo">Luxo</label>
+                        <input type="radio" id="familia" name="chale" value="familia">
+                        <label for="familia">Família</label><br><br>
+                    </fieldset>
+
+                    <label for="chegada">Chegada:</label>
+                    <input type="date" id="chegada" name="chegada">
+                    <label for="partida">Partida:</label>
+                    <input type="date" id="partida" name="partida"><br><br>
+
+                    <label for="adultos">Adultos:</label>
+                    <input type="number" id="adultos" name="adultos" value="2" min="1" max="10">
+                    <br><br>
+                    <label for="criancas">Crianças:</label>
+                    <input type="number" id="criancas" name="criancas" value="0" min="0" max="10"> 
+                    <span>Até 5 anos</span>
+                    <input type="number" id="ate5anos" name="ate5anos" value="0" min="0" max="10">
+                    <br><br>
+
+                    <input type="checkbox" id="vaga" name="vaga">
+                    <label for="vaga">Quero reservar uma vaga no estacionamento.</label><br><br>
+
+                    <label for="pagamento">Forma de Pagamento:</label>
+                    <select id="pagamento" name="pagamento">
+                        <option>Transferência (TED/DOC)</option>
+                        <option>Pix</option>
+                        <option>Depósito</option>
+                        <optgroup label="Cartão de crédito">
+                            <option>Mastercard</option>
+                            <option>Visa</option>
+                            <option>Elo</option>
+                        </optgroup>
+                        
+                    </select><br><br>
+
+                    <label for="pedido">Se desejar, faça um pedido especial:</label><br>
+                    <textarea id="pedido" name="pedido" rows="5" cols="40"></textarea><br><br>
+
+                    <input type="submit" value="Solicitar Reserva" class="enviar">
+                </fieldset>
+            </form>
+
+        </article>
+
+        <footer>
+            <p class="foot">Desenvolvido por Tech Hotelaria</p>
+        </footer>
+
+    </body>
+</html>

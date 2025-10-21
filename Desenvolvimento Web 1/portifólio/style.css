@@ -1,20 +1,50 @@
-nav {
-    background-color: black;
-    height: 100px;
-    width: 100%;
-    border: 0px;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 nav a {
+    color: #fff;
+    margin: 0 15px;
     text-decoration: none;
-    color: white;
-    border: 0px;
-    padding: 2%;
-    text-align: center;
-
 }
 
-body{
-    background-color: blueviolet;
-    border: 0px;
+.hero {
+    background: #333;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

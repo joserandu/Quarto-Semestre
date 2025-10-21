@@ -1,50 +1,40 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; 
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+h1, h2, h5 {
+    font-family: 'Montserrat', sans-serif;
 }
 
-nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
+.navbar-brand, .nav-link {
+    font-weight: bold;
+    margin: 0 8px;
 }
 
-.hero {
-    background: #333;
-    color: #fff;
-    padding: 4rem 0;
-    text-align: center;
+.nav-link:hover {
+    color: #00bfff !important;
 }
 
-.content {
-    padding: 2rem;
-    text-align: center;
+.card {
+    border: 1px solid #dee2e6;
+    transition: transform 0.2s ease-in-out;
 }
 
-.btn {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    padding: 0.8rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
+footer::before {
+    content: '';
+    display: block;
+    height: 2px;
     width: 100%;
+    background-color: #00bfff;
+    margin-bottom: 1rem;
+}
+
+#contactForm label {
+    font-weight: 600;
 }

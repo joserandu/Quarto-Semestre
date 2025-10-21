@@ -47,18 +47,18 @@ footer::before {
     height: 100%;
     z-index: -1;
     overflow: hidden;
+    background-color: black; 
 }
 
-.video-background iframe {
+#bg-video {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100vw;
-    height: 56.25vw; 
-    min-height: 100vh;
-    min-width: 177.77vh; 
-    transform: translate(-50%, -50%);
-    pointer-events: none; 
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .content-overlay {

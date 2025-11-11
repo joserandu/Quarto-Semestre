@@ -1,3 +1,2 @@
-Obs:
-
+- Curso: https://www.youtube.com/playlist?list=PL7iAT8C5wumpQWB8AFW7CwK2nlzh8ZdP9
 - Não coloquei a aula de Views porque não achei necessário, o mais importante é saber fazer as operações no banco de dados.

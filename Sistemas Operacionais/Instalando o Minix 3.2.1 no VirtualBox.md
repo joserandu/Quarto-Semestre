@@ -1,0 +1,1 @@
+- Quanto mais você particionar o seu disco, mais custoso é para o computador.
